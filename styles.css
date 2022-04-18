@@ -13,6 +13,34 @@ body {
 	justify-content: center;
 }
 
+.title {
+	color: white;
+	margin-bottom: 1px;
+	margin-left: 1px;
+	margin-top: 10px;
+	margin-left: 30px;
+	width: 500px;
+	height: 50px;
+	position: fixed;
+	top: 0;
+	left: 0%;
+	font-size: 24px;
+	font-family: 'Poppins', sans-serif;
+}
+
+h3 {
+	color: #fff;
+	position: fixed;
+	top: 80px;
+	left: 0%;
+	margin-left: 35px;
+	font-size: 10px;
+	letter-spacing: .12em;
+	text-transform: capitalize;
+	line-height: 150%;
+	font-family: 'Inter', sans-serif;
+}
+
 h2 {
 	font-size: 15vmin;
 	position: absolute;
@@ -46,7 +74,7 @@ img {
 }
 
 .drag-area {
-	border: 2px dashed #fff;
+	border: 2px solid #fff;
 	height: 500px;
 	width: 700px;
 	border-radius: 5px;
@@ -59,11 +87,6 @@ img {
 
 .drag-area.active {
 	border: 2px solid #fff;
-}
-
-.drag-area .icon {
-	font-size: 100px;
-	color: #fff;
 }
 
 .drag  {
@@ -86,7 +109,7 @@ img {
 	border: none;
 	outline: none;
 	background: #fff;
-	color: #5256ad;
+	color: black;
 	border-radius: 5px;
 	cursor: pointer;
 }
