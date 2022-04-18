@@ -5,7 +5,6 @@
 
 body {
 	font-family: "Work Sans", sans-serif;
-	letter-spacing: 2vmin;
 	background: black;
 	display: flex;	
 	height: 100vh;
@@ -54,6 +53,7 @@ img {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	font-family: 'Poppins', sans-serif;
 	flex-direction: column;
 }
 
