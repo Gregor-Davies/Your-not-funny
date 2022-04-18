@@ -95,7 +95,7 @@ img {
 	flex-direction: column;
 }
 
-.drag-area.active {
+.drag-area .active {
 	border: 2px solid #fff;
 }
 
